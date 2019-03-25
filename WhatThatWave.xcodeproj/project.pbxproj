@@ -105,19 +105,10 @@
 		8D23F9BD22398B57002E47BB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				8D23F9C122398BC0002E47BB /* Profile */,
 				8D23F9C022398B6D002E47BB /* MapSpots */,
 				8D23F9BF22398B67002E47BB /* FavoriteSpots */,
-				8D23F9BE22398B60002E47BB /* Login */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		8D23F9BE22398B60002E47BB /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		8D23F9BF22398B67002E47BB /* FavoriteSpots */ = {
@@ -132,13 +123,6 @@
 			children = (
 			);
 			path = MapSpots;
-			sourceTree = "<group>";
-		};
-		8D23F9C122398BC0002E47BB /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		8D23F9C722398BF1002E47BB /* WhatThatWaveTests */ = {
@@ -422,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H9FF7A6C8;
-				INFOPLIST_FILE = WhatThatWave/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhatThatWave/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H9FF7A6C8;
-				INFOPLIST_FILE = WhatThatWave/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhatThatWave/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
